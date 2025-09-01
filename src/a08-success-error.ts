@@ -1,0 +1,1 @@
+//Make a function that takes two callbacks: one for success and one for error. Use Math.random() to decide which to call.

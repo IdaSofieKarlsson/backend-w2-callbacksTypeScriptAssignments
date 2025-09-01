@@ -2,7 +2,7 @@
 
 type sayHelloFunction = (data: string) => void;
 
-const helloFromCallback = (sayHello: sayHelloFunction): void => {
+const sayHelloLater = (sayHello: sayHelloFunction): void => {
     setTimeout(() => {
         const data: string = 'Hi, I am late!';
         sayHello(data);
@@ -13,4 +13,4 @@ const sayHello = (data: string): void => {
     console.log(data);
 };
 
-helloFromCallback(sayHello);
+sayHelloLater(sayHello);

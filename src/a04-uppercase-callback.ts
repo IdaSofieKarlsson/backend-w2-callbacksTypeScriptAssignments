@@ -1,0 +1,1 @@
+//Write a function that takes a string and a callback. The callback should return the string in uppercase.
