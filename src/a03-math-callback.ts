@@ -6,6 +6,7 @@ const addNumbers = (a: number, b: number, printResult: printResultFunction) => {
     printResult(result);
 };
 
+//the callback function logs the result. The calculations are done in the main function
 const printResult = (result: number) => {
     console.log(`The result is: ${result}`);
 };

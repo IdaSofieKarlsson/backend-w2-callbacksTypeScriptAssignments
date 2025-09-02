@@ -7,6 +7,7 @@ const convertToUppercase = (myString: string, convertStringToUppercase: convertT
     console.log(upperString);
 };
 
+//the callback function returns the argument in UPPERCASE
 const convertStringToUppercase = (myString: string): string => {
     return myString.toUpperCase();
 };

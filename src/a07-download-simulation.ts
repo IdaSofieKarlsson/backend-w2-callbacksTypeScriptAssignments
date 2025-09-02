@@ -8,6 +8,7 @@ const downloadFile = (url: string, showFile: showFileFunction) => {
     }, 2000);
 };
 
+//the callback function logs the filecontent
 const showFile = (fileContent: string) => {
     console.log(fileContent);
 };

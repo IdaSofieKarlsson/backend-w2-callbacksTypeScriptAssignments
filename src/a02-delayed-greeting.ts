@@ -9,6 +9,7 @@ const sayHelloLater = (sayHello: sayHelloFunction): void => {
     }, 2000);
 };
 
+//the callback function logs the string data
 const sayHello = (data: string): void => {
     console.log(data);
 };

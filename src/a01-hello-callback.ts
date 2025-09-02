@@ -6,6 +6,7 @@ const helloFromCallback = (sayHello: sayHelloFunction): void => {
     sayHello(data);
 };
 
+//the callback function logs the string data
 const sayHello = (data: string): void => {
     console.log(data);
 };

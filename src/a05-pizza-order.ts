@@ -10,6 +10,7 @@ const orderPizza = (orderStatus: orderStatusFunction): void => {
     }, 3000);
 };
 
+//the callback function logs the deliveryMessage, the status of the pizza order
 const orderStatus = (deliveryMessage: string): void => {
     console.log(deliveryMessage);
 };
